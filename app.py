@@ -84,7 +84,7 @@ def lottery():
 
         return send_file(zip_filename, mimetype="application/zip", as_attachment=True, download_name=zip_filename)
 
-    return render_template("index copy.html")
+    return render_template("index.html")
 
 # 🔹 ฟังก์ชันสร้างรูปภาพ (เหมือนเดิม)
 def create_image(lottery_type):
